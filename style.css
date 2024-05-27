@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+    background-color: rgb(8, 8, 8);
+    font-family: 'Open Sans', sans-serif;;
+    
+}
+.card{
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding:2rem;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1rem;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+button{
+    margin: 0.5rem;
+    border-radius: 40%;
+    height: 2rem;
+    background-color: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+
+    
+}
+.day{
+    margin: 0.5rem;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    width: 150px;
+    text-align: center;
+    font-size: 20px;
+}

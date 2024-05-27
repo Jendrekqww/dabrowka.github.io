@@ -1,11 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
-<body>
-    ta
+<body onload="on()">
+    <div class="card">
+        <div class="search">
+            <form action="...">
+                <select name="day" class="day" onchange="on()" id="day">
+                    <option>Monday</option>
+                    <option>Tuesday</option>
+                    <option>Wensday</option>
+                    <option>Thursday</option>
+                    <option>Friday</option>
+                </select>
+            </form>
+            
+        </div>
+        <div class="weather">
+            <h2 class="city" >Weather in Warszawa</h2>
+            <div class="temp" id="temp">9°C</div>
+            <img src="" alt="" class="icon" />
+            
+            <div class="description" id="des">Cloudy</div>
+            <div class="humidity" id="hum">Humidity 50%</div>
+            <div class="wind" id="wind">Wind speed 6.2km/h</div>
+        </div>
+    </div>
 </body>
 </html>
